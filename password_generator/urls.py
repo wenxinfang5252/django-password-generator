@@ -15,7 +15,7 @@ Including another URLconf
 """
 #from django.contrib import admin
 from django.urls import path
-from generator import views
+from generator import views #indicates the views
 
 urlpatterns = [
     #path('admin/', admin.site.urls), #if someone types this, it will direct to that page; this one is default set

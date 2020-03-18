@@ -4,6 +4,7 @@
 <h1>Password Generator</h1>
 
 <form action = '{% url 'password' %}'> <!-- specify which the page it goes to next ->redirects to url file -> find paths with the name password->views.password->password.html -->
+ <div style="background-color: #f4d0b8 ;">
  <select name = "length">
    <option value = '6'>6</option>
    <option value = '7'>7</option>
@@ -22,7 +23,8 @@
  <br>
  <input type = 'checkbox' name = 'special'>Special Characters
  <br>
-
- <input type = 'submit' value = 'Generate Password' class = 'btn btn-primary'>
+</div>
+<br>
+ <input type = 'submit' value = 'Generate Password' style="background-color: #f4d0b8 ;" >
 </form>
 </div>
